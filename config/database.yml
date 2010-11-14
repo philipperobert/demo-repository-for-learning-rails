@@ -16,9 +16,10 @@ test:
   timeout: 5000
 
 production:
-  adapter: sqlite3
-  database: learningrails_9_production
-  username: prsmith
-  password: qjihzgEGD8vD
+  adapter: mysql
+  database: prsmith_learnin
   host: localhost
+  username: prsmith_learnin
+  password: qjihzgEGD8vD
+  encoding: utf8
   timeout: 5000
